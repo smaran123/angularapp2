@@ -1,0 +1,45 @@
+.header {
+  display: block;
+  padding: 5px 20px;
+  color: #222;
+  background: #f9cb0c;
+  h1 {
+    text-transform: uppercase;
+    font-weight: bold; 
+    line-height: 1em;
+    font-family: sans-serif;
+  }
+}
+.winner {
+  color: #999999;
+  font-size: .6em;
+}
+.highlight {
+  color: #03b218;
+}
+
+.highlighter {
+  display: inline-block;
+  color: #990000;
+  background: #cccc33;
+}
+
+.button,
+button {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 10px;
+  background: #3366cc;
+  color: #b8cdf6;
+  border: #2a5dc2 1px solid;
+  border-bottom-color: #2456ba;
+  border-top-color: #3e71d7;
+}
+
+.alert-box {
+  border: 1px solid #a93439;
+  background: #eb999c;
+  color: #a93439;
+  text-align: center;
+  padding: 10px;
+}
