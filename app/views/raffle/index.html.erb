@@ -7,7 +7,7 @@
 </form>
 <ul>
 <li ng-repeat="entry in entries">{{entry.name}}
-<span ng-show="winner" class="winner">Winner</span>
+<span ng-show="winner" ng-class="{highlight: entry == lastWinner}" class="winner">Winner</span>
 </li></ul>
 
 <button ng-click="drawWinner()">Drew Winner</button>
